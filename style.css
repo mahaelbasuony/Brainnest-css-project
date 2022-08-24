@@ -1,0 +1,120 @@
+:root {
+  --bg-text-dark: #1f2937;
+  --text-primary: #f9faf8;
+  --bg-text-secondary: #E5E7EB;
+  --btn-color: #3882f6;
+  --font-primary: 'Roboto', sans-serif;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-Black.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-LightItalic.ttf);
+  font-style: italic;
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: var(--bg-text-dark);
+
+
+}
+.header-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 90%; */
+
+
+}
+/* nav bar*/
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin-top: 12px ;
+}
+.logo{
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--text-primary);
+  font-family: var(--font-primary);
+  font-weight: 600;
+}
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  list-style: none;
+
+
+}
+.nav-menu_item{
+  text-decoration: none;
+  color: var(--bg-text-secondary);
+  margin: 0 8PX ;
+}
+/* End of nav bar*/
+
+/*  Start of hero contnet */
+.hero{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+
+}
+
+.hero-contnet{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 45%;
+}
+
+.hero_contnet_title{
+  font-size: 48px;
+  font-family: var(--font-primary);
+  font-weight: 900;
+  color: var(--text-primary);
+}
+.hero_contnet_body{
+  font-size: 18px;
+  color: var(--bg-text-secondary);
+  font-family: var(--font-primary);
+}
+.hero_signup{
+  text-decoration: none;
+  background-color: var(--btn-color);
+  color: var(--text-primary);
+  border-radius: 5px;
+  width: 15%;
+  padding: 4px 12px;
+  font-family: var(--font-primary);
+  margin-top: 12px;
+}
+.hero-image{
+  width: 35%;
+}
+
+/* End of hero contnet */
+
+/* info */
+
