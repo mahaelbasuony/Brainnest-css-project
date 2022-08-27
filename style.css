@@ -106,7 +106,7 @@
   margin-top: 12px;
   align-self: flex-start;
 }
-.hero_signup:hover{
+.hero_signup:hover {
   opacity: 0.7;
 }
 .hero-image {
@@ -171,7 +171,7 @@
   height: 100%;
   object-fit: cover;
 }
-.content_header_img:hover{
+.content_header_img:hover {
   opacity: 0.7;
 }
 .content_header_img_desc {
@@ -180,7 +180,7 @@
   width: 200px;
   margin-top: 10px;
   text-align: center;
-  color: var(--text-secondary)
+  color: var(--text-secondary);
 }
 
 .content-body {
@@ -280,6 +280,11 @@
 /* footer*/
 .footer {
   background-color: var(--bg-text-dark);
+
+  position:fixed;
+  bottom:0;
+  width: 100%;
+
 }
 
 .footer_desc {
