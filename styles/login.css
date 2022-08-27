@@ -112,3 +112,9 @@
   padding-left: .25rem;
 }
 /* Login - End */
+
+.footer{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+}
